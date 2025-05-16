@@ -1,8 +1,8 @@
 # main.py
 
-from config import NOAA_TOKEN, STATION_ID, START_DATE, END_DATE, SAVE_CSV, CSV_PATH, SEQUENCE_LENGTH
-from data_loader import fetch_ghcn_data, preprocess_ghcn
-from dataset import GHCNDailyDataset
+from archive.config import NOAA_TOKEN, STATION_ID, START_DATE, END_DATE, SAVE_CSV, CSV_PATH, SEQUENCE_LENGTH
+from archive.data_loader import fetch_ghcn_data, preprocess_ghcn
+from archive.dataset import GHCNDailyDataset
 from torch.utils.data import DataLoader
 
 def main():

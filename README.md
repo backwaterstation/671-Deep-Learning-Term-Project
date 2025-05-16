@@ -1,3 +1,5 @@
 ## Term Project Repository
 
-This is the base dataloader for the Term Project. The saved_data folder holds an empty CSV file that is meant to be written over with the data pulled from the NOAA database with each run of the program. If there is an issue with writing over the file, then just delete the original ghcn_data.csv file and run the loader again to write a new CSV.
+Term Project for CSC 671 SFSU by Blaine Mensa, Miles Young, Matthew Ng, Alex Hoff.
+
+The main training code is "Team4_code.ipynb" and the main data necessary to run the code is at /save_data/weather_data_72493023230_OAK_10-22.csv.
